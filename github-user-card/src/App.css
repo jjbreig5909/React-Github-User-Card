@@ -1,0 +1,37 @@
+.user-card{ 
+  background: lightgray;
+  margin: auto;
+  width: 85%;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top:15px;
+}
+
+.card-header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul, li{
+margin: 0px 5px 10px 20px;
+}
+
+.follower-title{
+  text-decoration: underline;
+  text-align: center;
+  margin: 15px 0 5px 0;
+
+}
+
+.user-bio{
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 20px;
+}
