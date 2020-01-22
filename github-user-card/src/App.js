@@ -12,14 +12,14 @@ class App extends React.Component {
 
   componentDidMount() {
     axios
-    .get("https://api.github.com/users/ChristopherHernandezW22")
+    .get("https://api.github.com/users/jjbreig5909")
     .then(res => {
       this.setState({...this.state, user: res.data });
       console.log(this.state.user);
     })
     .catch(error => console.log(error));
     axios
-    .get("https://api.github.com/users/ChristopherHernandezW22/followers")
+    .get("https://api.github.com/users/jjbreig5909/followers")
     .then(res=> {
       this.setState({...this.state, followers: res.data})
       console.log(this.state.followers);
